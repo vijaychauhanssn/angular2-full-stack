@@ -1,5 +1,4 @@
-# Angular Full Stack [![Dependencies](https://david-dm.org/DavideViolante/Angular-Full-Stack.svg)](https://david-dm.org/DavideViolante/Angular2-Full-Stack) [![Donate](https://img.shields.io/badge/paypal-donate-179BD7.svg)](https://www.paypal.me/dviolante) [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
-
+# Angular Full Stack 
 
 The frontend is generated with [Angular CLI](https://github.com/angular/angular-cli). The backend is made from scratch. Whole stack in [TypeScript](https://www.typescriptlang.org).
 
@@ -49,8 +48,32 @@ A window will automatically open at [localhost:4200](http://localhost:4200). Ang
 13. `git push heroku master`
 14. `heroku open` and a window will open with your app online
 
+Install the Heroku CLI
+Download and install the Heroku CLI.
+
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+$ heroku login
+Create a new Git repository
+Initialize a git repository in a new or existing directory
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a vijaychauhanssn
+Deploy your application
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+Existing Git repository
+For existing repositories, simply add the heroku remote
+
+$ heroku git:remote -a vijaychauhanssn
+
+
 ## Preview
-![Preview](https://raw.githubusercontent.com/DavideViolante/Angular2-Full-Stack/master/demo.gif "Preview")
+![Preview]( "Preview")
 
 ## Please open an issue if
 * you have any suggestion to improve this project
@@ -73,10 +96,10 @@ Run `mongod` to run an instance of MongoDB, then run `npm run testbe` to execute
 Run `ng lint` (frontend) and `npm run lintbe` (backend) to execute the linter via [TSLint](https://palantir.github.io/tslint/).
 
 ## Wiki
-To get more help about this project, [visit the official wiki](https://github.com/DavideViolante/Angular-Full-Stack/wiki).
+To get more help about this project, [visit the official wiki]( https://github.com/vijaychauhanssn/angular2-full-stack.git).
 
 ## Further help
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ### Author
-* [Davide Violante](https://github.com/DavideViolante)
+* [Vijay Chauhan](https://github.com/vijaychauhanssn)
